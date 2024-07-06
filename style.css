@@ -1,0 +1,131 @@
+body {
+
+background:url(imagenes/fondo.avif) no-repeat;
+background-size: cover;
+background-position: center;
+margin: 0;
+padding: 0;
+font-family: 'Segoe UI';
+
+height: 100vh; 
+}
+.Formulario{
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+   backdrop-filter: blur(20px);
+    border-radius: 20px;
+    height: 350px;
+    border: 2px #F5B841 solid;
+    box-shadow: 0 0 10px rgb(from 0 0 0 .2);
+}
+.Formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+.Formulario form{
+
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .correo {
+
+    position: relative;
+    border-bottom: 2px solid silver;
+    margin: 10px 0;
+}
+.contraseña input::placeholder{
+    color: white;
+}
+.correo input::placeholder{
+    color: white;
+}
+form .contraseña {
+
+    position: relative;
+    border-bottom: 2px solid silver;
+    margin: 10px 0;
+}
+.contraseña input{
+
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.contraseña label{
+
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: rgba(78, 75, 72, 0.795);
+    transform: translateY(1%);
+    font-size: 16px;
+    pointer-events: none;
+    }
+.correo input{
+
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.correo label{
+
+position: absolute;
+top: 50%;
+left: 5px;
+color: rgba(78, 75, 72, 0.795);
+transform: translateY(1%);
+font-size: 16px;
+pointer-events: none;
+}
+.correoimg {
+position: absolute;
+right: 20px;
+top: 10px;
+}
+.passimg{
+position: absolute;
+right: 20px;
+top: 10px;
+}
+.twitter{
+    margin:60px 50px 10px 80px ;
+}
+.insta{
+    margin:60px 50px 2px 0px ;
+}
+.face{
+    margin:60px 40px 3px 0px ; 
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.Registro{
+text-decoration: underline;
+font-size: 14px;
+text-align: center;
+margin-top: 25px;
+}
